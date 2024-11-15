@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function App() {
   return (
@@ -14,11 +14,12 @@ function App() {
       />
 
       {/* Content over the background */}
-      <div className="w-full absolute top-36 md:top-60 left-1/2 transform -translate-x-1/2">
-        <p className="font-ephesis text-8xl  text-center ">Niño o Niña</p>
+      <div className="w-full absolute top-32 md:top-60 left-1/2 transform -translate-x-1/2">
+        <p className="font-ephesis text-7xl  text-center ">¿Niño o Niña?</p>
         <p className="font-funnel-display text-3xl font-bold text-yellow-700 w-full text-center px-4 mt-4">
-          Queremos que seas parte de este momento tan especial de nestras vidas.{" "}
-          <br /> Acompanaños a la revelacion de genero de nuestro bebe.
+          Acompáñanos en esta celebración llena de alegría, amor y sorpresas.
+          <br/>¡No faltes a la revelación que marcará el inicio de una nueva
+          aventura!
         </p>
         <p className="text-center text-5xl font-ephesis font-bold mt-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-pink-500 p-1">
           ¿Lo descubrimos juntos?
@@ -59,9 +60,16 @@ function App() {
             <img
               src="/girl.png"
               alt="Location Map"
-              className="w-3/4 rounded-lg shadow-lg mx-auto"
+              className="w-3/4 rounded-lg mx-auto"
             />
-            <p className="text-pink-700 mt-4">Team Niña: </p>
+            <div className="text-pink-700 mt-4">
+              <p className="text-xl">Si eres team Niña: </p>
+              <ul>
+                <li className="text-md my-2">Vestir prenda rosa </li>
+                <li className="text-md mt-4"> Puedes obsequiarme: </li>
+                <li className="text-md">Pañales </li>
+              </ul>
+            </div>
           </div>
 
           {/* Right Column */}
@@ -69,10 +77,20 @@ function App() {
             <img
               src="/boy.png"
               alt="Location Map"
-              className="w-3/4 rounded-lg shadow-lg mx-auto"
+              className="w-3/4 rounded-lg mx-auto"
             />
-            <p className="text-blue-700 mt-4">Team Niño: </p>
+            <div className="text-blue-700 mt-4">
+              <p className="text-xl">Si eres team Niño: </p>
+              <ul>
+                <li className="text-md my-2">Vestir prenda azul </li>
+                <li className="text-md mt-4"> Puedes obsequiarme: </li>
+                <li className="text-md">Toallitas </li>
+              </ul>
+            </div>
           </div>
+        </div>
+        <div className="text-center text-5xl font-ephesis font-bold mt-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-pink-500 p-1 my-10">
+          Te esperamos!
         </div>
       </div>
     </div>
